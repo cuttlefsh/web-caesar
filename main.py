@@ -36,7 +36,7 @@ form = """
 """
 text = ""
 
-@app.route("/")
+@app.route("/index.html")
 def index():
     return form.format(text)
 
